@@ -31,7 +31,7 @@ export default function ExampleView() {
         // this is an alias for <React.Fragment>
         <>
             <Text>{ t('Modern Desktop App Examples') }</Text>
-            <Space h={'md'}/>
+            {/* <Space h={'md'}/> */}
             <Button onClick={createFile}>Do something with fs</Button>
             <Title order={4}>{ t('Interpolating components in translations') } </Title>
             <Trans i18nKey='transExample'
